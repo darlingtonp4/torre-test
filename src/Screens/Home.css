@@ -1,0 +1,21 @@
+.home-search {
+  text-align: justify;
+}
+.highlight-text {
+  color: #29acbe;
+  font-weight: 900;
+}
+.text-search p {
+  color: #383f51;
+  font-size: 6vh;
+  font-family: Arial, sans-serif;
+}
+text-search {
+  width: 380px;
+}
+h4 {
+  color: #383f51;
+}
+.suggestions {
+  width: 100%;
+}

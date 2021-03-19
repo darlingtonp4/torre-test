@@ -1,0 +1,38 @@
+.profile-container {
+  margin-top: 150px;
+}
+.foto-perfil {
+  border-radius: 50%;
+}
+h4 {
+  color: rgb(56, 63, 81);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: 600 !important;
+  padding-top: 10px;
+}
+h5 {
+  color: rgb(72, 80, 99);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding-top: 0px;
+  font-size: 2vh;
+}
+.traits h5 {
+  text-align: left;
+}
+h6 {
+  color: rgb(72, 80, 99);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding-top: 0px;
+  font-size: 2vh !important;
+}
+p {
+  font-size: 2vh;
+  text-align: center;
+}
+.spinner-container {
+  margin-top: 400px;
+  text-align: center;
+}

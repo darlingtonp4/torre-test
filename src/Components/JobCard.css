@@ -1,0 +1,24 @@
+.jobcard-container {
+  border-bottom: solid 1px rgb(240, 240, 240);
+}
+.jobcard-container h4 {
+  color: rgb(72, 80, 99);
+  text-align: left;
+  font-family: Arial, sans-serif;
+  padding-top: 10px;
+  font-size: 2vh !important;
+}
+.jobcard-container h5 {
+  color: rgb(72, 80, 99);
+  text-align: left;
+  font-family: Arial, sans-serif;
+  padding-top: 10px;
+  font-size: 2vh !important;
+}
+.jobcard-container h3 {
+  color: rgb(72, 80, 99);
+  font-family: Arial, sans-serif;
+  padding-top: 10px;
+
+  font-size: 3vh !important;
+}
