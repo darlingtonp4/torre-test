@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import "./Navigation.css";
 import logo from "../Assets/logo.jpeg";
-
+import { Link } from "react-router-dom";
 const Navigation = ({ usuario }) => {
   let [perfil, setPerfil] = useState();
   useEffect(() => {
@@ -25,13 +25,13 @@ const Navigation = ({ usuario }) => {
             </Navbar.Brand>
             <Nav className="ml-auto">
               <Nav.Link href="/" className="mt-2">
-                Home
+                <Link to="/">Home</Link>
               </Nav.Link>
-              <Nav.Link href="/user" className="mt-2">
-                User
+              <Nav.Link className="mt-2">
+                <Link to="/user"> User</Link>
               </Nav.Link>
-              <Nav.Link href="/" className="mt-2">
-                Match
+              <Nav.Link className="mt-2">
+                <Link to="/"> Match</Link>
               </Nav.Link>
               <Nav.Link href="/user">
                 <img
